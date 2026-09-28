@@ -34,9 +34,15 @@ export default function AgreementPage() {
 
       <div className="agreement-container">
         <section className="agreement-intro">
-          <p className="eyebrow">Ravalith / Founding Partner Program</p>
-          <h1>Founding Partner<br /><span>Agreement</span></h1>
-          <p className="intro-copy">Please read this page carefully. It explains exactly what you are buying, what it costs, what you receive, and what you agree to as a founding partner.</p>
+          <div className="intro-copy-wrap">
+            <p className="eyebrow">Ravalith / Founding Partner Program</p>
+            <h1>Founding Partner<br /><span>Agreement</span></h1>
+            <p className="intro-copy">Please read this page carefully. It explains exactly what you are buying, what it costs, what you receive, and what you agree to as a founding partner.</p>
+          </div>
+          <figure className="intro-art">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-MP9ot6a1u2LxSkvJYS7N6d9dPTLbmD.png" alt="Liquid metal flowing over a dark stone block" />
+            <figcaption>01 / A clearer path to growth</figcaption>
+          </figure>
         </section>
 
         <section className="summary-card" aria-label="Agreement summary">
