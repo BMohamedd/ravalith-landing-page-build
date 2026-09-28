@@ -29,7 +29,7 @@ export default function AgreementPage() {
     <main className="agreement-shell">
       <header className="agreement-header">
         <a className="wordmark" href="/" aria-label="Ravalith home">ravalith</a>
-        <a className="back-link" href="/">Back to website</a>
+        <nav className="agreement-actions"><a className="download-link" href="/agreement.html" download="ravalith-founding-partner-agreement.html">Download HTML</a><a className="back-link" href="/">Back to website</a></nav>
       </header>
 
       <section className="agreement-hero" aria-labelledby="hero-title">
