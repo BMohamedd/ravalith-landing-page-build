@@ -32,20 +32,26 @@ export default function AgreementPage() {
         <a className="back-link" href="/">Back to website</a>
       </header>
 
+      <section className="agreement-hero" aria-labelledby="hero-title">
+        <div className="hero-topline"><span>Ravalith / Founding Partner Program</span><span>Agreement 01 — 2026</span></div>
+        <div className="hero-main">
+          <p className="hero-kicker">Customer acquisition, without the leakage.</p>
+          <h1 id="hero-title">More customers.<br /><span>Less leakage.</span></h1>
+          <div className="hero-bottom"><p>Founding Partner Agreement</p><a href="#summary">Read the short version <span>↓</span></a></div>
+        </div>
+        <div className="hero-mark" aria-hidden="true"><span>R</span><span>/</span><span>V</span></div>
+      </section>
+
       <div className="agreement-container">
         <section className="agreement-intro">
+          <p className="eyebrow">Ravalith / Founding Partner Program</p>
           <div className="intro-copy-wrap">
-            <p className="eyebrow">Ravalith / Founding Partner Program</p>
-            <h1>Founding Partner<br /><span>Agreement</span></h1>
+            <h2>Founding Partner<br /><span>Agreement</span></h2>
             <p className="intro-copy">Please read this page carefully. It explains exactly what you are buying, what it costs, what you receive, and what you agree to as a founding partner.</p>
           </div>
-          <figure className="intro-art">
-            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-MP9ot6a1u2LxSkvJYS7N6d9dPTLbmD.png" alt="Liquid metal flowing over a dark stone block" />
-            <figcaption>01 / A clearer path to growth</figcaption>
-          </figure>
         </section>
 
-        <section className="summary-card" aria-label="Agreement summary">
+        <section id="summary" className="summary-card" aria-label="Agreement summary">
           <p className="section-label">The short version</p>
           <h2>You get more customers — and stop losing the ones already trying to reach you.</h2>
           <p>Ravalith builds and operates a customer-acquisition system for your plumbing company. This is more than a website: it helps people find you, trust you, contact you, and get a response.</p>
