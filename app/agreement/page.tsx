@@ -39,7 +39,10 @@ export default function AgreementPage() {
           <h1 id="hero-title">More customers.<br /><span>Less leakage.</span></h1>
           <div className="hero-bottom"><p>Founding Partner Agreement</p><a href="#summary">Read the short version <span>↓</span></a></div>
         </div>
-        <div className="hero-mark" aria-hidden="true"><span>R</span><span>/</span><span>V</span></div>
+        <figure className="hero-art" aria-label="Abstract liquid metal artwork">
+          <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-MP9ot6a1u2LxSkvJYS7N6d9dPTLbmD.png" alt="Liquid metal flowing over a dark stone block" />
+          <figcaption>R / 01</figcaption>
+        </figure>
       </section>
 
       <div className="agreement-container">
